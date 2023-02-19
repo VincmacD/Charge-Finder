@@ -1,0 +1,7 @@
+create schema ChargeFinder;
+use ChargeFinder;
+create table users(id int primary key auto_increment,username varchar(50)
+,email varchar(50)
+,password varchar(50)
+,phoneNumber varchar(20)
+,userType varchar(50)); 
