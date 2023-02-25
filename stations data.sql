@@ -1,0 +1,11 @@
+INSERT INTO stations (chargerName, address, lat, lng, status, output, cost, numStations, availability, schedule, navigateLink, city)
+VALUES 
+('113 Beechwood Avenue', '113 Beechwood Ave, Ottawa, ON', 45.446422, -75.675918, 'Operational', '50 kW', '$0.25/kWh', 2, true, '24/7', 'https://www.google.com/maps/dir/?api=1&destination=113+Beechwood+Ave,+Ottawa,+ON', 'Ottawa'),
+('122 Daly Avenue', '122 Daly Ave, Ottawa, ON', 45.427106, -75.692751, 'Operational', '20 kW', '$0.20/kWh', 1, false, '24/7', 'https://www.google.com/maps/dir/?api=1&destination=122+Daly+Ave,+Ottawa,+ON', 'Ottawa'),
+('170 Primrose Avenue', '170 Primrose Ave, Ottawa, ON', 45.381269, -75.727372, 'Operational', '30 kW', '$0.30/kWh', 3, true, '24/7', 'https://www.google.com/maps/dir/?api=1&destination=170+Primrose+Ave,+Ottawa,+ON', 'Ottawa'),
+('186 Main Street', '186 Main St, Ottawa, ON', 45.433162, -75.687214, 'Operational', '25 kW', '$0.20/kWh', 2, true, '24 hours', 'https://www.google.com/maps/dir/?api=1&destination=45.433162,-75.687214', 'Ottawa'),
+('190 Richmond Road', '190 Richmond Rd, Ottawa, ON', 45.396963, -75.748318, 'Operational', '40 kW', '$0.25/kWh', 2, true, '24 hours', 'https://www.google.com/maps/dir/?api=1&destination=45.396963,-75.748318', 'Ottawa'),
+('245 Crichton Street', '245 Crichton St, Ottawa, ON', 45.445085, -75.682266, 'Operational', '15 kW', '$0.15/kWh', 2, true, '24 hours', 'https://www.google.com/maps/dir/?api=1&destination=45.445085,-75.682266', 'Ottawa'),
+('301 Laurier Avenue East', '301 Laurier Ave E, Ottawa, ON', 45.421771, -75.683386, 'Operational', '50 kW', '$0.30/kWh', 2, true, '24 hours', 'https://www.google.com/maps/dir/?api=1&destination=45.433162,-75.687214', 'Ottawa'),
+('930 Wellington Street West charging station', '930 Wellington St W, Ottawa, ON', 45.404456, -75.728023, 'Out of service', '60 kW', '$0.40/kWh', 2, true, '24 hours', 'https://www.google.com/maps/dir/?api=1&destination=45.421771,-75.683386', 'Ottawa'),
+('283 Cyr Avenue', '283 Cyr Ave, Ottawa, ON', 45.450310, -75.672374, 'Operational', '30 kW', '$0.25/kWh', 2, true, '24 hours', 'https://www.google.com/maps/dir/?api=1&destination=45.440291, -75.661184', 'Ottawa');
